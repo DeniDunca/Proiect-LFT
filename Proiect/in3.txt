@@ -1,0 +1,19 @@
+Ingredients.
+water = 500 ml,
+sugar = 300 g,
+milk = 100 ml,
+honey = 50 g,
+chocolate = 200 g,
+apple = 2 pieces 
+
+Method.
+Put water into the mixing bowl.
+Put sugar into the mixing bowl.
+Put milk into the mixing bowl.
+Put honey into the mixing bowl.
+Put chocolate into the mixing bowl.
+Combine 1 piece apple into the mixing bowl.
+Divide 10 ml milk into the mixing bowl.
+Refrigerate for 3 hours.
+Baking dishes.
+Clean mixing bowl.

@@ -1,0 +1,22 @@
+Ingredients.
+salt = 5 g,
+water = 50 ml,
+flour = 500 g,
+butter = 10 g,
+meat = 150 g,
+mashroom = 1000 g,
+bacon = 50 g
+
+Method.
+Put flour into the mixing bowl.
+Put salt into the mixing bowl.
+Put butter into the mixing bowl.
+Mix the mixing bowl well.
+Put water into the mixing bowl.
+Mix the mixing bowl well.
+Bake the content of the mixing bowl.
+Add 10 ml salt into the mixing bowl.
+Last baking dish.
+Baking dishes.
+Clean mixing bowl.
+Taste the food.

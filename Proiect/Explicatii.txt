@@ -1,0 +1,29 @@
+Transaltor din limbajul Chef in C++
+
+Proiect realizat de Balog Helga si Dunca Denisa
+Grupa: 30227
+
+Limbajul Chef detine ingrediente si metode specifice acestora.
+Translatat in C++, ingredientele sunt niste variabile de tip int, care retin cantitatea.
+
+De exemplu, daca in fisierul de intrare avem: butter = 20 g in fisierul de iesire o sa avem: int butter = 20;
+
+De asemenea, se declara stiva cu care o sa se lucreze, in momentul in care sa da de METHOD. In acel moment, in C++ avem stack<int> mixingBowl;
+
+Mai departe o sa explic metodele limbajului Chef:
+
+Put *item* into the mixing bowl. -> Aceasta metoda adauga ingredientul mentionat in stiva.
+Fold *item* into the mixing bowl. -> Aceasta metoda ia intregul de pe varful stivei si o pune in variabila cu numele item.
+Mix the mixing bowl well. -> Aceasta metoda amesteca intregii din stiva.
+Bake the content of the mixing bowl. -> Aceasta metoda reprezinta structura DO WHILE. Pentru 10 iteratii se va astepta, dupa care se trece mai departe.
+Add *num* *unity* *item* into the mixing bowl. -> Aceasta metoda aduna num la intregul de pe varful stivei si afiseaza ce item s-a adugat.
+Remove *num* *unity* *item* into the mixing bowl. -> Aceasta metoda scade num din intregul de pe varful stivei si afiseaza ce itam s-a scazut.
+Combine *num* *unity* *item* into the mixing bowl. -> Aceasta metoda inmulteste num cu intregul din varful stivei si afiseaza ce itam s-a combinat.
+Divide *num* *unity* *item* into the mixing bowl. -> Aceasta metoda imparte intregul din varful stivei cu num si afiseaza ce item s-a impartit.
+Take *item* from refrigerator. -> Aceasta metoda citeste de la tastatura un intreg in variabila cu numele item.
+Serve with *item* -> Aceasta metoda opreste "prepararea" mancarii curente pentru a prepara alta.
+Baking dishes. ->  Aceasta metoda afiseaza intr-ul WHILE toate elementele intregi de pe stiva.
+Last baking dish. -> Aceasta metoda afiseaza intregul de pe varful stivei.
+Clean mixing bowl. -> Aceasta metoda sterge toate elementele de pe stiva.
+Taste the food. -> Aceasta metoda verifica daca stiva este goala sau nu si afiseaza rezultatul.
+Refrigerate for *num* hours. -> Aceasta metoda reprezinta un FOR cu n=num, in care se afiseaza primele num elemente de pe stiva.

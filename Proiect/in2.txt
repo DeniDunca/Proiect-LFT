@@ -1,0 +1,22 @@
+Ingredients.
+water = 500 ml,
+potatoes = 1 kg,
+salt = 5 g,
+pepper = 5 g,
+onion = 2 pieces,
+corn = 1 piece
+
+Method.
+Put water into the mixing bowl.
+Put salt into the mixing bowl.
+Put pepper into the mixing bowl.
+Put onion into the mixing bowl.
+Put corn into the mixing bowl.
+Fold corn into the mixing bowl.
+Remove 1 piece onion from mixing bowl.
+Take meat from refrigerator.
+Put meat into the mixing bowl.
+Serve with bread
+Baking dishes.
+Clean mixing bowl.
+

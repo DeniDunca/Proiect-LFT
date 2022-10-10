@@ -1,0 +1,93 @@
+//Translated from Chef to C++:
+
+ #include<iostream>
+ #include<bits/stdc++.h>
+ using namespace std;
+  #define GET_VARIABLE_NAME(Variable) (#Variable)
+
+
+ void prepare(int dish){
+   stack<int> newDish; 
+   newDish.push(dish);
+ }
+
+ stack<int> mix(stack<int> stack){
+   unsigned seed=0;
+   shuffle(stack.begin(), stack.end(), default_random_engine(seed)); 
+   return stack;
+ }
+
+ stack<int> add_ingredient(int value, string ingredient,stack<int> stack){
+   cout<<"We added "<<ingredient; 
+   int item= stack.top(); 
+   stack.pop();
+   item +=value; 
+   stack.push(item); 
+   return stack; 
+ }
+
+ stack<int> remove_ingredient(int value, string ingredient,stack<int> stack){
+   cout<<"We removed"<<ingredient; 
+   int item= stack.top(); 
+   stack.pop();
+   item -=value; 
+   stack.push(item); 
+   return stack; 
+}
+
+ stack<int> combine_ingredient(int value, string ingredient,stack<int> stack){
+   cout<<"We combined "<<ingredient; 
+   int item= stack.top(); 
+   stack.pop();
+   item *=value; 
+   stack.push(item); 
+   return stack; 
+}
+
+ stack<int> divide_ingredient(int value, string ingredient,stack<int> stack){
+   cout<<"We divided "<<ingredient; 
+   int item= stack.top(); 
+   stack.pop();
+  item /=value; 
+   stack.push(item); 
+   return stack; 
+ }
+
+
+ int main(){
+
+ int  water=500, potatoes=1, salt=5, pepper=5, onion=2, corn=1;
+
+ stack<int> mixingBowl;
+
+ mixingBowl.push( water);
+
+ mixingBowl.push( salt);
+
+ mixingBowl.push( pepper);
+
+ mixingBowl.push( onion);
+
+ mixingBowl.push( corn);
+ corn = mixingBowl.top(); 
+ mixingBowl.pop();
+ mixingBowl = remove_ingredient(1, GET_VARIABLE_NAME( onion), mixingBowl);
+ cin>> meat;
+
+ mixingBowl.push( meat);
+ int bread=100;
+ prepare(bread);
+
+ while(!mixingBowl.empty())
+ {
+  cout<<mixingBowl.top();
+  mixingBowl.pop();
+ }
+ 
+ while(!mixingBowl.empty())
+ {
+  mixingBowl.pop();
+ }
+
+ return 0;
+}
